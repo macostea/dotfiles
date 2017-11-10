@@ -7,3 +7,9 @@
 [submodule "vim/pack/mcostea/start/vim-sensible"]
 	path = vim/pack/mcostea/start/vim-sensible
 	url = git://github.com/tpope/vim-sensible.git
+[submodule "vim/pack/mcostea/start/nerdtree-git-plugin"]
+	path = vim/pack/mcostea/start/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
+[submodule "vim/pack/mcostea/start/RootIgnore"]
+	path = vim/pack/mcostea/start/RootIgnore
+	url = https://github.com/octref/RootIgnore
