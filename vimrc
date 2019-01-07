@@ -9,4 +9,7 @@ let g:ctrlp_cmd = 'CtrlP'
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set omnifunc=syntaxcomplete#Complete
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
