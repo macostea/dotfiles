@@ -10,3 +10,9 @@
 [submodule "vim/pack/mcostea/start/ctrlp"]
 	path = vim/pack/mcostea/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "vim/pack/mcostea/start/vim-terraform"]
+	path = vim/pack/mcostea/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+[submodule "vim/pack/mcostea/start/vim-markdown"]
+	path = vim/pack/mcostea/start/vim-markdown
+	url = https://github.com/preservim/vim-markdown.git

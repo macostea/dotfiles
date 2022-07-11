@@ -8,7 +8,10 @@ let NERDTreeShowHidden = 1
 noremap <C-n> :NERDTreeToggle<CR>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:vim_markdown_folding_disabled = 1
+
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+set backspace=indent,eol,start  "
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 set omnifunc=syntaxcomplete#Complete
 set expandtab
